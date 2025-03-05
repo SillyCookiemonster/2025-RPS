@@ -36,6 +36,7 @@ while True:
 
     if rounds_played == round_num:
         break
+    
     if mode == "regular":
         print("Round number:", (rounds_played - round_num) * -1)
     else:
